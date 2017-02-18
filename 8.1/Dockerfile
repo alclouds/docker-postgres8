@@ -12,4 +12,4 @@ RUN yum -y update  \
 
 EXPOSE 5432/tcp
 
-#CMD ["/start.sh"]
+CMD ["/start.sh"]
